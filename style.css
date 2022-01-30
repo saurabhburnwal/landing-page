@@ -9,7 +9,7 @@ body {
   margin: 0;
 }
 
-.header { 
+header { 
   padding: 16px 15%;
   color: #f9faf8;
   display: flex;
@@ -44,12 +44,23 @@ img {
 }
 
 .text { 
-  font-size: 18px;
   color: #e5e7eb;
+  font-size: 18px;
+  font-weight: 300;
 }
 
 a { 
   text-decoration: none;
+}
+
+a:hover { 
+  color: #ffbb00d5;
+  text-decoration: underline;
+}
+
+a:active { 
+  color: #ffbb00;
+  text-decoration: underline;
 }
 
 .hero-main { 
@@ -73,13 +84,21 @@ a {
   justify-content: center;
 }
 
-button { 
-  margin-top: 8px;
+.blue-button { 
   background-color: #3882f6;
   color: #f9faf8;
   padding: 6px 24px;
-  border: none;
   border-radius: 6px;
+  font-weight: 500;
+}
+
+.blue-button:hover { 
+  background-color: #488af5;
+}
+
+.first { 
+  margin-top: 8px;
+  border: none;
 }
 
 .info { 
@@ -115,15 +134,16 @@ button {
 
 .quote { 
   padding: 80px 25%;
+  color: #1f2937;
   background-color: #e5e7eb;
 }
 
 blockquote { 
   margin-right: 0;
+  margin-bottom: 0;
   font-size: 36px;
   font-weight: 300;
   font-style: italic;
-  color: #1f2937;
 }
 
 cite { 
@@ -131,4 +151,28 @@ cite {
   font-weight: 700;
   font-style: normal;
   text-align: right;
+  margin-right: 24px;
+}
+
+.call-to-action { 
+  background-color: #3882f6;
+  color: #f9faf8;
+  margin: 64px 15%;
+  border-radius: 8px;
+  padding: 2em 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 48px;
+}
+
+.last { 
+  border: 2px solid white;
+  flex: 0 0 auto;
+}
+
+footer { 
+  text-align: center;
+  padding: 2em 0 1em 0;
+  line-height: 1.5em;
 }
