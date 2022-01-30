@@ -94,6 +94,10 @@ button {
   color: #1f2937;
 }
 
+.illustration { 
+  margin: 0;
+}
+
 .subtext { 
   font-size: 16px;
   color: #4d4d4d;
