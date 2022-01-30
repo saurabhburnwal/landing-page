@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
 body { 
   font-family: Roboto, sans-serif;
@@ -60,7 +60,7 @@ a {
 .container { 
   display: flex;
   align-items: center;
-  gap: 50px;
+  gap: 6.7%;
 }
 
 .margin { 
@@ -107,4 +107,24 @@ button {
   max-width: 100%;
   border: 4px solid #3882f6;
   border-radius: 16px;
+}
+
+.quote { 
+  padding: 80px 25%;
+  background-color: #e5e7eb;
+}
+
+blockquote { 
+  margin-right: 0;
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1f2937;
+}
+
+cite { 
+  display: block;
+  font-weight: 700;
+  font-style: normal;
+  text-align: right;
 }
