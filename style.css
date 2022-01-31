@@ -20,7 +20,7 @@ header {
   background-color: #1f2937;
 }
 
-.nav { 
+nav { 
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -113,10 +113,6 @@ a:active {
   color: #1f2937;
 }
 
-.illustration { 
-  margin: 0;
-}
-
 .subtext { 
   font-size: 16px;
   color: #4d4d4d;
@@ -173,6 +169,6 @@ cite {
 
 footer { 
   text-align: center;
-  padding: 2em 0 1em 0;
+  padding: 1em 0 0.75em 0;
   line-height: 1.5em;
 }
