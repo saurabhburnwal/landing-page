@@ -85,6 +85,7 @@ a:active {
 }
 
 .blue-button { 
+  cursor: pointer;
   background-color: #3882f6;
   color: #f9faf8;
   padding: 6px 24px;
@@ -94,6 +95,10 @@ a:active {
 
 .blue-button:hover { 
   background-color: #488af5;
+}
+
+.blue-button:active { 
+  background-color: #3882f6;
 }
 
 .first { 
